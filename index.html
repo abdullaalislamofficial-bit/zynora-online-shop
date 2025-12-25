@@ -1,1 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Free Landing Page</title>
 
+  <!-- Facebook Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', 'YOUR_PIXEL_ID');
+    fbq('track', 'PageView');
+  </script>
+</head>
+
+<body style="font-family:Arial;text-align:center;padding:40px;">
+  <h1>Welcome to My Landing Page</h1>
+  <p>100% Free Landing Page with Facebook Pixel</p>
+
+  <a href="https://wa.me/880XXXXXXXXXX"
+     onclick="fbq('track','Lead')"
+     style="padding:15px 25px;background:#1877f2;color:#fff;
+     text-decoration:none;border-radius:5px;">
+     Contact on WhatsApp
+  </a>
+</body>
+</html>
